@@ -34,10 +34,6 @@ h2 {
     font-size: larger;
 }
 
-h5 {
-    color: transparent;
-}
-
 p {
     color: white;
     margin: 0 0 25px;
@@ -64,7 +60,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: white;
+    color: #2c3e50;
 }
 
 hr.star-light,
