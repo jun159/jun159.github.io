@@ -16,7 +16,9 @@
 .caption3,
 .caption4,
 .caption5,
-.caption6 {
+.caption6,
+.caption7,
+.caption8 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -57,6 +59,16 @@
     background: rgba(165, 179, 224, 0.9);
 }
 
+#portfolio .portfolio-item .portfolio-link .caption,
+.caption7 {
+    background: rgba(146, 222, 250, 0.9);
+}
+
+#portfolio .portfolio-item .portfolio-link .caption,
+.caption8 {
+    background: rgba(24, 188, 156, 0.9);
+}
+
 /* Text */
 #portfolio .portfolio-item .portfolio-link .caption::before,
 .caption1::before,
@@ -64,7 +76,9 @@
 .caption3::before,
 .caption4::before,
 .caption5::before,
-.caption6::before {
+.caption6::before,
+.caption7::before,
+.caption8::before {
     opacity: 1;
 }
 
@@ -74,7 +88,9 @@
 .caption3 .caption-content,
 .caption4 .caption-content,
 .caption5 .caption-content,
-.caption6 .caption-content {
+.caption6 .caption-content,
+.caption7 .caption-content,
+.caption8 .caption-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -91,7 +107,9 @@
 .caption3 .caption-content i,
 .caption4 .caption-content i,
 .caption5 .caption-content i,
-.caption6 .caption-content i {
+.caption6 .caption-content i,
+.caption7 .caption-content i,
+.caption8 .caption-content i {
     margin-top: -12px;
 }
 
@@ -101,7 +119,9 @@
 .caption3 .caption-content p,
 .caption4 .caption-content p,
 .caption5 .caption-content p,
-.caption6 .caption-content p {
+.caption6 .caption-content p,
+.caption7 .caption-content p,
+.caption8 .caption-content p {
     margin-top: -12px;
 }
 
@@ -111,7 +131,9 @@
 .caption3:hover,
 .caption4:hover,
 .caption5:hover,
-.caption6:hover {
+.caption6:hover,
+.caption7:hover,
+.caption8:hover {
     opacity: 0.8;
 }
 
