@@ -21,6 +21,7 @@
     <link href="css/nav.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
     <link href="css/portfolio.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
@@ -28,206 +29,207 @@
     <link href='http://fonts.googleapis.com/css?family=Spirax' rel='stylesheet' type='text/css'>
 
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
 </head>
 
 <body id="page-top" class="index">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
+<!-- Navigation -->
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top">
                 <!--    <span class="light">Luah</span> Bao Jun -->
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden">
+                    <a href="#page-top">Luah Bao Jun</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#page-top">Top</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<!-- Intro Header -->
+<header class="intro">
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2 class="brand-heading">{ BaoJun; }</h2>
+                    <p>// I create things with code.</p>
+                    <a href="#portfolio" class="btn btn-circle page-scroll">
+                        <i class="fa fa-angle-double-down animated"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Portfolio Grid Section -->
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <!-- Title here -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 portfolio-item">
+                <a href="https://github.com/jun159/jun159.github.io" class="portfolio-link" data-toggle="modal">
+                    <div class="caption1">
+                        <div class="caption-content">
+                            <i class="fa fa-globe fa-2x"> Portfolio</i>
+                            <hr width="70%">
+                            <p>HTML + CSS + Javascript</p>
+                        </div>
+                    </div>
+                    <img src="img/portfolio.png" class="img-responsive" alt="">
                 </a>
             </div>
-
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top">Luah Bao Jun</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#page-top">Top</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
+            <div class="col-sm-4 portfolio-item">
+                <a href="https://github.com/jun159/FocusLock/wiki" class="portfolio-link" data-toggle="modal">
+                    <div class="caption2">
+                        <div class="caption-content">
+                            <i class="fa fa-android fa-2x"> FocusLock</i>
+                            <hr width="70%">
+                            <p>Java</p>
+                        </div>
+                    </div>
+                    <img src="img/focuslock.png" class="img-responsive" alt="">
+                </a>
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h2 class="brand-heading">{ BaoJun; }</h2>
-                        <p>// I create things with code.</p>
-
-                        <a href="#portfolio" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+            <div class="col-sm-4 portfolio-item">
+                <a href="https://github.com/cs2103aug2015-w15-1j/main" class="portfolio-link" data-toggle="modal">
+                    <div class="caption3">
+                        <div class="caption-content">
+                            <i class="fa fa-laptop fa-2x"> TankTask</i>
+                            <hr width="70%">
+                            <p>Java</p>
+                        </div>
+                    </div>
+                    <img src="img/tanktask.png" class="img-responsive" alt="">
+                </a>
+            </div>
+        <div class="col-sm-4 portfolio-item">
+            <a href="https://github.com/MooncakeMonster/FetchProject/wiki/Fetch" class="portfolio-link" data-toggle="modal">
+                <div class="caption4">
+                    <div class="caption-content">
+                        <i class="fa fa-android fa-2x"> Fetch</i>
+                        <hr width="70%">
+                        <p>Java</p>
                     </div>
                 </div>
+                <img src="img/fetch.png" class="img-responsive" alt="">
+            </a>
             </div>
-        </div>
-    </header>
-
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-
-                </div>
-            </div>
-
-
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="https://github.com/MooncakeMonster/FetchProject" class="portfolio-link" data-toggle="modal">
-                        <div class="caption1">
-                            <div class="caption-content">
-                                <i class="fa fa-android fa-2x"> Fetch</i>
-                                <hr width="70%">
-                                <p>Java</p>
-                            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="https://github.com/jun159" class="portfolio-link" data-toggle="modal">
+                    <div class="caption5">
+                        <div class="caption-content">
+                            <i class="fa fa-laptop fa-2x"> Static Program Analyzer</i>
+                            <hr width="70%">
+                            <p>C++</p>
                         </div>
-                        <img src="img/fetch.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="https://github.com/jun159/jun159.github.io" class="portfolio-link" data-toggle="modal">
-                        <div class="caption2">
-                            <div class="caption-content">
-                                <i class="fa fa-globe fa-2x"> Portfolio</i>
-                                <hr width="70%">
-                                <p>HTML + CSS + JavaScript</p>
-                            </div>
-                        </div>
-                        <img src="img/portfolio.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="https://github.com/jun159/FocusLock" class="portfolio-link" data-toggle="modal">
-                        <div class="caption3">
-                            <div class="caption-content">
-                                <i class="fa fa-android fa-2x"> FocusLock</i>
-                                <hr width="70%">
-                                <p>Java</p>
-                            </div>
-                        </div>
-                        <img src="img/focuslock.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Language Grid Section -->
-    <section id="language">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <div class="caption1">
-                            <div class="caption-content">
-                                <i class="fa fa-android fa-2x"> C</i>
-                                <hr width="70%">
-                                <p>C</p>
-                            </div>
-                        </div>
-                        <img src="img/fetch.png" class="img-responsive" alt="">
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="https://github.com/jun159/jun159.github.io" class="portfolio-link" data-toggle="modal">
-                        <div class="caption2">
-                            <div class="caption-content">
-                                <i class="fa fa-globe fa-2x"> Portfolio</i>
-                                <hr width="70%">
-                                <p>HTML + CSS + JavaScript</p>
-                            </div>
-                        </div>
-                        <img src="img/portfolio.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="https://github.com/jun159/FocusLock" class="portfolio-link" data-toggle="modal">
-                        <div class="caption3">
-                            <div class="caption-content">
-                                <i class="fa fa-android fa-2x"> FocusLock</i>
-                                <hr width="70%">
-                                <p>Java</p>
-                            </div>
-                        </div>
-                        <img src="img/focuslock.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://www.facebook.com/luahbaojun" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/jun159" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                            </li>
-                            <li>
-                                <a href="mailto:baojun159@gmail.com" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope"></i></a>
-                            </li>
-                        </ul>
-                        Copyright &copy; 2015 Luah Bao Jun.
                     </div>
-                </div>
+                    <img src="img/spa.png" class="img-responsive" alt="">
+                </a>
             </div>
         </div>
-    </footer>
-
-    <!-- Scroll to Top Button -->
-    <div class="scroll-top page-scroll visible-xs visible-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
     </div>
+</section>
 
-    <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+<!-- About Section -->
+<section class="success" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>About Me</h2>
+                <hr class="star-light">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-lg-offset-1">
+                <img src="img/me.gif" class="img-responsive" alt="">
+            </div>
+            <div class="col-lg-6 img-centered">
+                <p> My name is Bao Jun, currently an undergraduate majoring in Computer Science.
+                    I love developing applications that can help connect people and improve lives.
+                    Coding is my passion and I ensure my codes are in good quality and applications are tested thoroughly before being released out for use. </p>
+                <p> I love my work and enjoy every project that I am involved in. I am also available as Android Freelancer during my summer vacation from May to August. Do not hesitate to contact me if you have any idea to share with.</p>
+            </div>
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <a href="https://goo.gl/k2NalW" class="btn btn-lg btn-cv">
+                    <i class="fa fa-eye"></i> View My Resume
+                </a>
+                <a href="#" class="btn btn-lg btn-cv">
+                    <i class="fa fa-eye"></i> View Testimonial
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.min.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/page.js"></script>
+<!-- Footer -->
+<footer class="text-center">
+    <div class="footer-below">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.facebook.com/luahbaojun" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/jun159" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a href="mailto:baojun159@gmail.com" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope"></i></a>
+                        </li>
+                    </ul>
+                    Copyright &copy; 2015 Luah Bao Jun.
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpAnimatedHeader.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="js/page.js"></script>
 
 </body>
 

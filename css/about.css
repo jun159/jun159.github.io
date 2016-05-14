@@ -1,0 +1,54 @@
+section {
+    padding: 100px 0;
+}
+
+section h2 {
+    margin: 0;
+    font-size: 5em;
+}
+
+section.success {
+    background-color: #f2f2f2;
+    background: url(../img/header.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: white;
+}
+
+.btn-cv {
+    margin-top: 15px;
+    border: solid 2px white;
+    font-size: 20px;
+    color: white;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-cv:hover,
+.btn-cv:focus,
+.btn-cv:active,
+.btn-cv.active {
+    color: #2c3e50;
+    border: solid 2px #2c3e50;
+    background: transparent;
+}
+
+section.success a,
+section.success a:hover,
+section.success a:focus,
+section.success a:active,
+section.success a.active {
+    color: #ffffff;
+    outline: none;
+}
+
+@media (max-width: 767px) {
+    section {
+        padding: 75px 0;
+    }
+    section.first {
+        padding-top: 75px;
+    }
+}
